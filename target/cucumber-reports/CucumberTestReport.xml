@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="28.753" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Add to cart functionality" name="Verify that user can add one product to cart with index" time="27.559">
+<system-out><![CDATA[
+Given User is logged in.....................................................passed
+Given "Products" page is open...............................................passed
+When I add product with index 2 in the cart.................................passed
+Then I see that the shopping cart badge should show 1 item..................passed
+When I click on "shoppingCart" button.......................................passed
+Then I verify that the correct product should be in the cart................passed
+]]></system-out>
+</testcase>
+</testsuite>
